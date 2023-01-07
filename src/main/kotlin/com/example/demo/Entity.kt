@@ -17,6 +17,7 @@ class Article(
     @Id @GeneratedValue var id: Long? = null
 )
 
+@Entity
 class User(
     var login: String,
     var firstName: String,
